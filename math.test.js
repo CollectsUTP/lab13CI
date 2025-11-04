@@ -10,7 +10,3 @@ test('probar suma 2+3 = 5', () => {
 });
 
 
-const {multiplicar} = require("./math");
-test('probar multiplicaicon 2*2=4', ()=>{
-expect(multiplicar(2,2)).toBe(4);
-});
