@@ -1,7 +1,10 @@
-const {suma} =require("./math");
+// math.test.js
 
-jest('probar suma 2+3 =5',()=>{
+const { suma } = require("./math");
 
-expect(suma(2,3)).toBe(5);
-});               
+// Cambia 'jest' por 'test' o 'it'
+test('probar suma 2+3 = 5', () => {
 
+  expect(suma(2, 3)).toBe(5);
+  
+});
