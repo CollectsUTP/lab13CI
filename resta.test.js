@@ -1,6 +1,6 @@
 
 
-const {resta}= requeri("./resta");
+const {resta}= require("./resta");
 
 
 test("resta 4-3=1",()=>{
