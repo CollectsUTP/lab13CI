@@ -2,7 +2,7 @@
   "name": "lab13ci",
   "version": "1.0.0",
   "description": "Un servidor Express simple para Render.",
-  "main": "server.js",
+  "main": "serve.js",
   "scripts": {
     "test": "jest",
     "start": "node server.js"
