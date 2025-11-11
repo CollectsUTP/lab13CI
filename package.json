@@ -2,7 +2,7 @@
   "name": "lab13ci",
   "version": "1.0.0",
   "description": "Un servidor Express simple para Render.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "start": "node server.js"
@@ -19,6 +19,9 @@
     "url": "https://github.com/CollectsUTP/lab13CI/issues"
   },
   "homepage": "https://github.com/CollectsUTP/lab13CI#readme",
+  "dependencies": {
+    "express": "^4.18.2" 
+  },
   "devDependencies": {
     "jest": "^30.2.0"
   }
