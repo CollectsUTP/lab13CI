@@ -1,10 +1,11 @@
 {
   "name": "lab13ci",
   "version": "1.0.0",
-  "description": "",
+  "description": "Un servidor Express simple para Render.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
